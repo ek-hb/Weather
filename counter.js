@@ -6,7 +6,7 @@ export function setupCounter(element) {
 
     const InpWeather = document.getElementById("WeatherInput").value;
     const City = InpWeather;
-    const URL = `http://api.openweathermap.org/data/2.5/forecast?q=${City}&units=metric&lang=ua&appid=42715e4a415eeaef3e24fb242ad4009e`;
+    const URL = `https://api.openweathermap.org/data/2.5/forecast?q=${City}&units=metric&lang=ua&appid=42715e4a415eeaef3e24fb242ad4009e`;
 
     console.log("City: ", City);
 
